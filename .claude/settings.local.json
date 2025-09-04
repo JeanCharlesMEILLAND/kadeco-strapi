@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/C:\\Users\\jcmei\\OneDrive\\Bureau\\Kadeco\\kadeco-strapi\\src\\api\\product\\content-types\\product/**)",
+      "Read(/C:\\Users\\jcmei\\OneDrive\\Bureau\\Kadeco\\kadeco-strapi\\src\\api\\product\\controllers/**)",
+      "Bash(npm run build:*)",
+      "Bash(npm run develop:*)",
+      "Bash(npx strapi:*)",
+      "Read(/C:\\Users\\jcmei\\OneDrive\\Bureau\\Kadeco\\kadeco-strapi/**)",
+      "Bash(npm run strapi:*)",
+      "Bash(npx @strapi/strapi:*)",
+      "Bash(./node_modules/.bin/strapi:*)",
+      "Read(/C:\\Users\\jcmei\\OneDrive\\Bureau\\Kadeco\\kadeco-strapi\\app\\app\\types\\generated/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

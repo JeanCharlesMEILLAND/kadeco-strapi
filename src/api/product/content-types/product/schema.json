@@ -12,7 +12,19 @@
   "pluginOptions": {},
   "attributes": {
     "titre": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "photos": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": ["images"]
+    },
+    "annee": {
+      "type": "integer"
     }
   }
 }
