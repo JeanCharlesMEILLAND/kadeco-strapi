@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_map_and_testimonials",
+  "info": {
+    "displayName": "LocalisationEtTemoignage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "localisation": {
+      "type": "string"
+    },
+    "temoignages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::temoignage.temoignage"
+    }
+  },
+  "config": {}
+}

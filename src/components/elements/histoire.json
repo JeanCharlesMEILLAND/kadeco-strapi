@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_histoires",
+  "info": {
+    "displayName": "Histoire"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "details": {
+      "type": "component",
+      "component": "elements.histoire-detail",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

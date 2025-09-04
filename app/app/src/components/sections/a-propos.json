@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_sections_a_propos",
+  "info": {
+    "displayName": "À propos"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "description": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "elements": {
+      "type": "component",
+      "component": "elements.element",
+      "repeatable": true
+    },
+    "bouton": {
+      "type": "component",
+      "component": "elements.bouton",
+      "repeatable": false
+    },
+    "liens_reseaux": {
+      "type": "component",
+      "component": "elements.lien-reseau",
+      "repeatable": true
+    },
+    "styles": {
+      "type": "component",
+      "component": "utils.css",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_utils_csses",
+  "info": {
+    "displayName": "CSS"
+  },
+  "options": {},
+  "attributes": {
+    "textColor": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+    },
+    "bgColor": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+    },
+    "bgImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "paddingTop": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "bgYPosition": {
+      "type": "integer",
+      "default": 0,
+      "min": -200,
+      "max": 100
+    }
+  },
+  "config": {}
+}

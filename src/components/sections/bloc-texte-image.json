@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_sections_bloc_texte_images",
+  "info": {
+    "displayName": "BlocTexteImage"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "description": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "bouton": {
+      "type": "component",
+      "component": "elements.bouton",
+      "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "position_image": {
+      "type": "enumeration",
+      "required": true,
+      "default": "droite",
+      "enum": [
+        "gauche",
+        "droite"
+      ]
+    },
+    "styles": {
+      "type": "component",
+      "component": "utils.css",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

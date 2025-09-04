@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_sections_pied_de_pages",
+  "info": {
+    "displayName": "Pied de page"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "description": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "logo": {
+      "type": "component",
+      "component": "elements.logo",
+      "repeatable": false
+    },
+    "liens": {
+      "type": "component",
+      "component": "elements.lien",
+      "repeatable": true
+    },
+    "liens_reseaux": {
+      "type": "component",
+      "component": "elements.lien-reseau",
+      "repeatable": true
+    },
+    "styles": {
+      "type": "component",
+      "component": "utils.css",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

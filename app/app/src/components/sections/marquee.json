@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_marquees",
+  "info": {
+    "displayName": "Marquee"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "description": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "elements": {
+      "type": "component",
+      "component": "elements.element",
+      "repeatable": true
+    },
+    "styles": {
+      "type": "component",
+      "component": "utils.css",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

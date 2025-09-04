@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_sections_collection_sections",
+  "info": {
+    "displayName": "CollectionSection"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "description": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "articles": {
+      "type": "component",
+      "component": "elements.collection-article",
+      "repeatable": true
+    },
+    "collections": {
+      "type": "component",
+      "component": "elements.collection-item",
+      "repeatable": true
+    },
+    "cta": {
+      "type": "component",
+      "component": "elements.cta2",
+      "repeatable": false
+    },
+    "accessoires": {
+      "type": "component",
+      "component": "elements.accessoire",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

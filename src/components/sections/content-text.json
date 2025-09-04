@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_content_texts",
+  "info": {
+    "displayName": "ContentText"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    }
+  },
+  "config": {}
+}

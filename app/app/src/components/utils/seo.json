@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_utils_seos",
+  "info": {
+    "displayName": "SEO"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "metaDescription": {
+      "type": "string",
+      "required": true
+    },
+    "sharedImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "canonicalUrl": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

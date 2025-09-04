@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_selection_collections",
+  "info": {
+    "displayName": "SelectionCollection"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "elements": {
+      "type": "component",
+      "component": "elements.carte-collection",
+      "repeatable": true
+    },
+    "styles": {
+      "type": "component",
+      "component": "utils.css",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_couleurs",
+  "info": {
+    "displayName": "couleur"
+  },
+  "options": {},
+  "attributes": {
+    "nomCouleur": {
+      "type": "string"
+    },
+    "codeHexa": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+    }
+  },
+  "config": {}
+}

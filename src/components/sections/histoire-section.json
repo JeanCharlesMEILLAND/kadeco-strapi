@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_histoire_sections",
+  "info": {
+    "displayName": "HistoireSection"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "elements": {
+      "type": "component",
+      "component": "elements.histoire",
+      "repeatable": true
+    },
+    "bouton": {
+      "type": "component",
+      "component": "elements.bouton",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

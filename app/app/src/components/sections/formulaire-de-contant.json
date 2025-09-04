@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_formulaire_de_contants",
+  "info": {
+    "displayName": "FormulaireDeContant"
+  },
+  "options": {},
+  "attributes": {
+    "styles": {
+      "type": "component",
+      "component": "utils.css",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

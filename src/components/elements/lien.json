@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_liens",
+  "info": {
+    "displayName": "Lien"
+  },
+  "options": {},
+  "attributes": {
+    "texte": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "nouvelOnglet": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  },
+  "config": {}
+}

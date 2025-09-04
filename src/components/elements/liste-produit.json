@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_liste_produits",
+  "info": {
+    "displayName": "ListeProduit"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "string"
+    },
+    "taille": {
+      "type": "string"
+    },
+    "couleur": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,5 @@
+docker build -t f4d-strapi-boilerplate:dev .
+
+docker tag f4d-strapi-boilerplate:dev aceky/f4d-strapi-boilerplate:dev
+
+docker push aceky/f4d-strapi-boilerplate:dev

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_elements_boutons",
+  "info": {
+    "displayName": "Bouton"
+  },
+  "options": {},
+  "attributes": {
+    "texte": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "nouvelOnglet": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "bgColor": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "required": false
+    },
+    "textColor": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "required": false
+    }
+  },
+  "config": {}
+}

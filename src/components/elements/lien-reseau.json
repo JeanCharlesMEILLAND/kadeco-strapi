@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_elements_lien_reseaus",
+  "info": {
+    "displayName": "LienReseau"
+  },
+  "options": {},
+  "attributes": {
+    "lien": {
+      "type": "component",
+      "component": "elements.lien",
+      "repeatable": false
+    },
+    "reseau": {
+      "type": "enumeration",
+      "enum": [
+        "YOUTUBE",
+        "TWITTER",
+        "DISCORD",
+        "WEBSITE",
+        "LINKEDIN",
+        "FACEBOOK",
+        "INSTAGRAM"
+      ]
+    }
+  },
+  "config": {}
+}

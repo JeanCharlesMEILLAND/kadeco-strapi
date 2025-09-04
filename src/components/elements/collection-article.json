@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_elements_collection_articles",
+  "info": {
+    "displayName": "CollectionArticle"
+  },
+  "options": {},
+  "attributes": {
+    "nom": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "description": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "pieces": {
+      "type": "string"
+    },
+    "imagePrincipale": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "galerie": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "couleurs": {
+      "type": "component",
+      "component": "elements.couleur",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

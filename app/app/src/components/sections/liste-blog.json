@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_liste_blogs",
+  "info": {
+    "displayName": "ListeBlog"
+  },
+  "options": {},
+  "attributes": {
+    "styles": {
+      "type": "component",
+      "component": "utils.css",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_map_videos",
+  "info": {
+    "displayName": "MapVideo"
+  },
+  "options": {},
+  "attributes": {
+    "carte": {
+      "type": "text"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}
